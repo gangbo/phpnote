@@ -5,9 +5,9 @@
  我们也可以注册自己的autoload方法,可以使用
  spl_autoload_register方法注册
  */
-function __autoload($classname){
-    echo "execute __autoload \n";
-    echo "autoload $classname \n";
-    include $classname.'.php';
+spl_autoload_register('_myautoload');
+function _myautoload($classname) {
+    echo " autoload $classname \n";
+    include $classname . '.php';
 }
-$b = new B();
+new B();
