@@ -23,7 +23,7 @@ ln -sv /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
 5.make install
 
 #安装nginx
-./configure
+    ./configure
 make
 sudo make install
 #启动nginx
