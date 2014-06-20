@@ -26,6 +26,8 @@ ln -sv /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
 ./configure
 make
 sudo make install
+#启动nginx
+/usr/local/nginx/sbin/nginx
 
 
 
