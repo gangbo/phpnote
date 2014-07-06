@@ -1,0 +1,3 @@
+[submodule "markdownviewer"]
+	path = markdownviewer
+	url = https://github.com/michelf/php-markdown
