@@ -9,6 +9,7 @@
 * 按照zend官方的例子搭建个入门的程序
     专辑管理，功能包括 1.专辑列表 2.对专辑进行增删改 .
     DB结构+测试数据,DB名字为`zend_tutorial`,表结构：
+
             CREATE TABLE album (
             id int(11) NOT NULL auto_increment,
             artist varchar(100) NOT NULL,
@@ -25,6 +26,7 @@
                 VALUES  ('Lana  Del  Rey',  'Born  To  Die');
             INSERT INTO album (artist, title)
                 VALUES  ('Gotye',  'Making  Mirrors');
+
 
 * 使用composer 安装zendframework
 `bash
