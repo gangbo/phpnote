@@ -7,8 +7,8 @@
 1. 确定你的apache 支持 `.htaccess`,就是设置AllowOverride参数
 2. 安装composer
 3. 按照zend官方的例子搭建个入门的程序
-专辑管理，功能包括 1.专辑列表 2.对专辑进行增删改 .
-DB结构+测试数据,DB名字为`zend_tutorial`
+    专辑管理，功能包括 1.专辑列表 2.对专辑进行增删改 .
+    DB结构+测试数据,DB名字为`zend_tutorial`,表结构：
         CREATE TABLE album (
         id int(11) NOT NULL auto_increment,
         artist varchar(100) NOT NULL,
