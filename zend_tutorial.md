@@ -131,7 +131,7 @@
 完成这一步的话我们就可以再浏览器测试`http://zf2-tutorial.localhost/album`
 应该可以看到错误提示
 `Zend\View\Renderer\PhpRenderer::render: Unable to render template "album/album/index";`
-9. 看到上面的错误说明我们的代码运行正常了,接下来自然就是添加模板文件
+* 看到上面的错误说明我们的代码运行正常了,接下来自然就是添加模板文件
 我们在添加文件`Album/view/album/album/index.phtml`
 
         hello world
