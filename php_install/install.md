@@ -3,15 +3,25 @@
 ----------------
 ##install  php
 1. 下载php源码
-2. 安装``gcc ,libxml,mysql-devel``
-        yum install gcc
-        yum install mysql-devel
-        yum install libxml2-devel
+2. 安装 `gcc ,libxml,mysql-devel`
+        `yum install gcc`
+        `yum install mysql-devel`
+        `yum install libxml2-devel`
 3. 解压php代码
         ``tar -xzvf php-5.3.28.tar.gz``
         cd php-5.3.28
 4. 按照php.net上的方法安装:
-        ./configure --enable-fpm --with-mysql
+        ./configure --enable-fpm\
+                --with-mysql \
+                --with-pear=/usr/share/php\
+                --with-bz2--with-gd\
+                --with-mysqli\
+                --with-openssl\
+                --with-zlib\
+                -enable-calendar\
+                -enable-mbstring\
+                -enable-bcmath\
+                --enable-sockets 
 
 如果提示
 ``configure: error: Cannot find libmysqlclient under /usr``
