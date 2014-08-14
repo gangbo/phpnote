@@ -11,6 +11,7 @@
         ``tar -xzvf php-5.3.28.tar.gz``
         cd php-5.3.28
 4. 按照php.net上的方法安装:
+
         ./configure --enable-fpm\
                 --with-mysql \
                 --with-pear=/usr/share/php\
