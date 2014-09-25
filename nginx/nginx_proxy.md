@@ -1,7 +1,6 @@
 nginx 配置反向代理
 
 ```
-
 upstream google {
 #    server 74.125.239.50;
     server www.google.com;
@@ -37,5 +36,4 @@ server
     error_log /var/log/nginx/daigb.access.log;
     access_log /var/log/nginx/daigb.access.log;
 }
-
 ```
